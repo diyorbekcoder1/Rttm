@@ -13,7 +13,7 @@
                     <div class="who-we-contant mt-s">
                         <div class="more-dots text-left fadeInUp" data-wow-delay="0.2s">
                             <span class="gradient-text blue">{{$aboutsection->sub_title ?? ''}}</span>
-                        </div>
+                         </div>
                         <h4 class="wow bold fadeInUp" data-wow-delay="0.3s">{{$aboutsection->title ?? ''}}</h4>
                         <p class="fadeInUp"  data-wow-delay="0.4s">{{substr($aboutsection->description,0,999)}}</p>
                         <div class="list-wrap align-items-center">

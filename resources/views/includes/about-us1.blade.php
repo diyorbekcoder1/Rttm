@@ -10,7 +10,7 @@
                     <div class="more-dots text-left fadeInUp" data-wow-delay="0.2s">
                         <span class="gradient-text blue">{{$aboutsection->sub_title ?? ''}}</span>
                     </div>
-                    <h4 class="wow bold fadeInUp" data-wow-delay="0.3s">{{$aboutsection->title ?? ''}}</h4>
+                     <h4 class="wow bold fadeInUp" data-wow-delay="0.3s">{{$aboutsection->title ?? ''}}</h4>
                     <p class="fadeInUp"  data-wow-delay="0.4s">{!! $aboutsection->description ?? ''  !!}</p>
                     <div class="list-wrap align-items-center">
                          <div class="row">
