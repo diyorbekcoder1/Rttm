@@ -5223,9 +5223,9 @@ p.artficial:before{
     margin: auto;
 }
 
-/*.testimonial_image > img {*/
-/*    border-radius: 50%;*/
-/*}*/
+.testimonial_image > img {
+    border-radius: 50%;
+}
 
 .testimonial_text > p {
     font-weight: 500;

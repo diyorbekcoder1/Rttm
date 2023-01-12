@@ -16,19 +16,34 @@
                 <div class="client_slides owl-carousel">
                   @foreach ($testimonials as $key => $value)
                     <!-- Single Testimonial -->
-                    <div class="single-testimonial text-center">
-                      <div class="icon_wrapper"><i class="fa fa-quote-right"></i></div><!-- Testimonial Image -->
-                      <div class="testimonial_image"><img src="{{isset($value->image) ? asset('storage/' . $value->image) : 'img/test-img/1.jpg'}}" alt=""></div><!-- Testimonial Feedback Text -->
-                      <div class="testimonial-description">
-                        <div class="testimonial_text">
-                          <p>{{$value->description ?? ''}}</p>
-                        </div><!-- Admin Text -->
-                        <div class="admin_text">
-                          <h5>{{$value->name ?? ''}}</h5>
-                          <p>{{$value->position ?? ''}}</p>
+                        <div class="card" style="width: 28rem;">
+                            <img style="width: 500px;height: 400px;" src="{{isset($value->image) ? asset('storage/' . $value->image) : 'img/test-img/1.jpg'}}" alt="">
+                            <div class="card-body">
+                                <div class="testimonial-description">
+                                    <div class="testimonial_text">
+                                        <p>{{$value->description ?? ''}}</p>
+                                    </div><!-- Admin Text -->
+{{--                                    <div class="admin_text">--}}
+{{--                                        <h5>{{$value->name ?? ''}}</h5>--}}
+{{--                                        <p>{{$value->position ?? ''}}</p>--}}
+{{--                                    </div>--}}
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
+
+{{--                    <div class="single-testimonial text-center">--}}
+{{--                      <div class="icon_wrapper"><i class="fa fa-quote-right"></i></div><!-- Testimonial Image -->--}}
+{{--                      <div class="testimonial_image"><img src="{{isset($value->image) ? asset('storage/' . $value->image) : 'img/test-img/1.jpg'}}" alt=""></div><!-- Testimonial Feedback Text -->--}}
+{{--                      <div class="testimonial-description">--}}
+{{--                        <div class="testimonial_text">--}}
+{{--                          <p>{{$value->description ?? ''}}</p>--}}
+{{--                        </div><!-- Admin Text -->--}}
+{{--                        <div class="admin_text">--}}
+{{--                          <h5>{{$value->name ?? ''}}</h5>--}}
+{{--                          <p>{{$value->position ?? ''}}</p>--}}
+{{--                        </div>--}}
+{{--                      </div>--}}
+{{--                    </div>--}}
                   @endforeach
                 </div>
             </div>
