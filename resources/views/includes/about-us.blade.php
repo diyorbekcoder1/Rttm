@@ -15,7 +15,7 @@
                             <span class="gradient-text blue">{{$aboutsection->sub_title ?? ''}}</span>
                          </div>
                         <h4 class="wow bold fadeInUp" data-wow-delay="0.3s">{{$aboutsection->title ?? ''}}</h4>
-                        <p style="text-align: justify" class="fadeInUp"  data-wow-delay="0.4s">{{ strip_tags(substr($aboutsection->description,0,999)) }}</p>
+                        <p style="text-align: justify" class="fadeInUp"  data-wow-delay="0.4s">{{ strip_tags(substr($aboutsection->description,0,800)) }}</p>
                         <div class="list-wrap align-items-center">
                             <div class="row">
                               @foreach ($aboutfeatures as $key => $feature)
