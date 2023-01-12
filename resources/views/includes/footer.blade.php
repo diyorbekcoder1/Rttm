@@ -34,7 +34,7 @@
                 <!-- Content Info -->
                 <div class="contact_info_area d-sm-flex justify-content-between">
                     <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.2s">
-                        <h5>{{__('NAVIGATE')}}</h5><a href="">
+                        <h5>{{__('Navigatsiya')}}</h5><a href="">
                       <a href="{{ route('home-page.index_1') }}">
                           <p>{{$navbar->home ?? ''}}</p>
                       </a>
@@ -57,7 +57,7 @@
                 <div class="contact_info_area d-sm-flex justify-content-between">
                     <!-- Content Info -->
                     <div class="contact_info mt-s text-center fadeInUp" data-wow-delay="0.4s">
-                        <h5>{{__('CONTACT US')}}</h5>
+                        <h5>{{__('BIZ BILAN BOGLANISH')}}</h5>
                         <p>{{$footer->mail_address ?? ''}}</p>
                         <p>{{$footer->address ?? ''}}</p>
                         <p>{{$footer->phone ?? ''}}</p>
