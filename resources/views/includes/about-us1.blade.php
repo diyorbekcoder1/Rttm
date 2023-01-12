@@ -13,7 +13,7 @@
                     <h4 class="wow bold fadeInUp" data-wow-delay="0.3s">{{$aboutsection->title ?? ''}}</h4>
                     <p class="fadeInUp"  data-wow-delay="0.4s">{!! $aboutsection->description ?? ''  !!}</p>
                     <div class="list-wrap align-items-center">
-                        <div class="row">
+                         <div class="row">
                             @foreach ($aboutfeatures as $key => $feature)
                                 <div class="col-md-6">
                                     <div class="side-feature-list-item">
