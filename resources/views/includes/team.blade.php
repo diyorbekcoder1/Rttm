@@ -20,7 +20,7 @@
                   <h5 class="w-text">{{$value->name ?? ''}}</h5>
                   <p class="g-text">{{$value->position ?? ''}}</p>
                 </div><!-- Social Icon -->
-                <div class="team-social-icon"><a href="{{$value->social_link ?? ''}}"><i class="fa fa-linkedin"></i></a></div>
+                <div class="team-social-icon"><a href="{{$value->social_link ?? ''}}"><i class="fa fa-instagram"></i></a></div>
               </div>
             </div>
           @endforeach
