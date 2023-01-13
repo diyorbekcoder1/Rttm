@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-white fixed-top" id="banner">
     <div class="container">
         <!-- Brand -->
-        <a class="navbar-brand" href="/"><span><img src="{{ isset($navbar->logo) ? asset('storage/' . $navbar->logo) : 'img/core-img/logopng.png'}}"  style="width:15%;  " alt="logo"></span> </a>
+        <a class="navbar-brand" href="/"><span><img src="{{ isset($navbar->logo) ? asset('storage/' . $navbar->logo) : 'img/core-img/logopng.png'}}"  style="width:10%;  " alt="logo"></span> </a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
