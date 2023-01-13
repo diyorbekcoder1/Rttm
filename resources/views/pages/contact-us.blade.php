@@ -45,16 +45,16 @@
                                 <div id="success_fail_info"></div>
                             </div>
                             <div class="col-12 col-md-6">
-                                <div class="group wow fadeInUp" data-wow-delay="0.2s"><input type="text" name="name" id="name" required><span class="highlight"></span><span class="bar"></span><label>{{__('Name')}}</label></div>
+                                <div class="group wow fadeInUp" data-wow-delay="0.2s"><input type="text" name="name" id="name" required><span class="highlight"></span><span class="bar"></span><label>{{__('Ism')}}</label></div>
                             </div>
                             <div class="col-12 col-md-6">
-                                <div class="group wow fadeInUp" data-wow-delay="0.3s"><input type="text" name="email" id="email" required><span class="highlight"></span><span class="bar"></span><label>{{__('Email')}}</label></div>
+                                <div class="group wow fadeInUp" data-wow-delay="0.3s"><input type="text" name="email" id="email" required><span class="highlight"></span><span class="bar"></span><label>{{__('Elektron pochta')}}</label></div>
                             </div>
                             <div class="col-12">
-                                <div class="group wow fadeInUp" data-wow-delay="0.4s"><input type="text" name="subject" id="subject" required><span class="highlight"></span><span class="bar"></span><label>{{__('Subject')}}</label></div>
+                                <div class="group wow fadeInUp" data-wow-delay="0.4s"><input type="text" name="subject" id="subject" required><span class="highlight"></span><span class="bar"></span><label>{{__('Mavzu')}}</label></div>
                             </div>
                             <div class="col-12">
-                                <div class="group wow fadeInUp" data-wow-delay="0.5s"><textarea name="message" id="message" required></textarea><span class="highlight"></span><span class="bar"></span><label>{{__('Message')}}</label></div>
+                                <div class="group wow fadeInUp" data-wow-delay="0.5s"><textarea name="message" id="message" required></textarea><span class="highlight"></span><span class="bar"></span><label>{{__('Xabar')}}</label></div>
                             </div>
                             <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.6s"><button type="submit" class="btn more-btn">{{__('Send Message')}}</button></div>
                         </div>
