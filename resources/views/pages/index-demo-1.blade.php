@@ -16,7 +16,7 @@
                             <div class="promo-section">
                                 <h3 class="special-head gradient-text cyan">{{$herosection->sub_title ?? ''}}</h3>
                             </div>
-                            <h1 class="w-text fadeInUp" data-wow-delay="0.2s">{{$herosection->title ?? ''}} <span
+                            <h1 class="w-text fadeInUp" data-wow-delay="0.2s"> <span
                                     class="gradient-text cyan">{{$herosection->span_title ?? ''}}</span></h1>
                             <p class="g-text fadeInUp" data-wow-delay="0.3s">{{$herosection->description ?? ''}}</p>
                             <div class="more-btn-group fadeInUp" data-wow-delay="0.4s">
