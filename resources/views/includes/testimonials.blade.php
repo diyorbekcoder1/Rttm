@@ -16,7 +16,7 @@
                 <div class="client_slides owl-carousel">
                   @foreach ($testimonials as $key => $value)
                     <!-- Single Testimonial -->
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: 20rem;">
                             <img style="width: 500px;height: 400px;" src="{{isset($value->image) ? asset('storage/' . $value->image) : 'img/test-img/1.jpg'}}" alt="">
                             <div class="card-body">
                                 <div class="testimonial-description">
