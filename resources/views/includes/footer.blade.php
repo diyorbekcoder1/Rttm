@@ -5,7 +5,7 @@
                 <div class="footer-copywrite-info">
                     <!-- Copywrite -->
                     <div class="copywrite_text fadeInUp" data-wow-delay="0.2s">
-                        <div class="footer-logo"><a href="#"><img src="{{ isset($navbar->logo) ? asset('storage/' . $navbar->logo) : 'img/core-img/logopng.png'}}"  style="width: 100px; height: 50px; " alt="logo">  </a></div>
+                        <div class="footer-logo"><a href="#"><img src="{{ isset($navbar->logo) ? asset('storage/' . $navbar->logo) : 'img/core-img/logopng.png'}}"  style="width: 100%; height: 50%; " alt="logo">  </a></div>
                         <p>Raqamli ta'lim texnologiyalar markazi o'ziga belgilangan vazifani sitqidildan amalga oshirishga harakat qiladi.</p>
                     </div><!-- Social Icon -->
                     <div class="footer-social-info fadeInUp" data-wow-delay="0.4s"><a href="{{$footer->facebook}}"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="{{$footer->twitter}}"> <i class="fa fa-twitter" aria-hidden="true"></i></a><a href="{{$footer->google_plus}}"><i
