@@ -17,7 +17,7 @@
                   @foreach ($testimonials as $key => $value)
                     <!-- Single Testimonial -->
                         <div class="single-testimonial " style="width: 23rem;">
-                            <img style="width: 500px;height: 400px;" src="{{isset($value->image) ? asset('storage/' . $value->image) : 'img/test-img/1.jpg'}}" alt="">
+                            <img style="width: 400px;height: 400px;" src="{{isset($value->image) ? asset('storage/' . $value->image) : 'img/test-img/1.jpg'}}" alt="">
                             <div class="card-body">
                                 <div class="testimonial-description">
                                     <div class="testimonial_text">
