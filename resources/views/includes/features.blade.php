@@ -20,7 +20,7 @@
                     </div>
                     <!-- Icon -->
                     <div class="service_img">
-                        <img  src="{{isset($feature->image) ? asset('storage/' . $feature->image) : 'img/features/feature-1.jpg'}}"  style="width: 50%;  " class="" alt="">
+                        <img  src="{{isset($feature->image) ? asset('storage/' . $feature->image) : 'img/features/feature-1.jpg'}}"  style="width: 80%;  " class="" alt="">
                     </div>
                     <h6 class="feature-info">{{$feature->title ?? ''}}</h6>
                 </div>
