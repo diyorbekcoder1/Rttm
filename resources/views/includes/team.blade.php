@@ -15,7 +15,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
               <div class="single-team-member hos fadeInUp" data-wow-delay="0.2s">
                 <!-- Image -->
-                <div class="team-member-thumb hos"><img src="{{isset($value->position) ? asset('storage/' . $value->image) : 'img/team-img/Picture1.png'}}" style="width: 400px; height: 240px; " class="center-block" alt=""></div><!-- Team Info -->
+                <div class="team-member-thumb hos"><img src="{{isset($value->position) ? asset('storage/' . $value->image) : 'img/team-img/Picture1.png'}}" style="width: 400px; height: 220px; " class="center-block" alt=""></div><!-- Team Info -->
                 <div class="team-info">
                   <h5 class="w-text">{{$value->name ?? ''}}</h5>
                   <p class="g-text">{{$value->position ?? ''}}</p>
